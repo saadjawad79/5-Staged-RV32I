@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_main_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_main" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="691200001fs"></ZoomEndTime>
+      <Cursor1Time time="450000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="214"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="40" />
+   <wvobject type="divider" fp_name="divider1609">
+      <obj_property name="label">CONFIG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/ADD_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADD_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/INST_WIDTH" type="array">
+      <obj_property name="ElementShortName">INST_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INST_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/REG_NO" type="array">
+      <obj_property name="ElementShortName">REG_NO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_NO[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/D_ADD_WIDTH" type="array">
+      <obj_property name="ElementShortName">D_ADD_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_ADD_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/ELEMENT_SIZE" type="array">
+      <obj_property name="ElementShortName">ELEMENT_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ELEMENT_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1607">
+      <obj_property name="label">FETCH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/Rst" type="logic">
+      <obj_property name="ElementShortName">Rst</obj_property>
+      <obj_property name="ObjectShortName">Rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1728" type="group">
+      <obj_property name="label">Pc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_main/inst/PC_out" type="array">
+         <obj_property name="ElementShortName">PC_out[9:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_out[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/Stall" type="logic">
+         <obj_property name="ElementShortName">Stall</obj_property>
+         <obj_property name="ObjectShortName">Stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/Ready" type="logic">
+         <obj_property name="ElementShortName">Ready</obj_property>
+         <obj_property name="ObjectShortName">Ready</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/inst/rom_depth" type="array">
+      <obj_property name="ElementShortName">rom_depth[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_depth[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/Inst_out" type="array">
+      <obj_property name="ElementShortName">Inst_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Inst_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1608">
+      <obj_property name="label">DECODE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/Inst_out_FD" type="array">
+      <obj_property name="ElementShortName">Inst_out_FD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Inst_out_FD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1648" type="group">
+      <obj_property name="label">Reg_file</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group1644" type="group">
+         <obj_property name="label">Reg_file_input</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_main/inst/src1_add" type="array">
+            <obj_property name="ElementShortName">src1_add[2:0]</obj_property>
+            <obj_property name="ObjectShortName">src1_add[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_main/inst/src2_add" type="array">
+            <obj_property name="ElementShortName">src2_add[2:0]</obj_property>
+            <obj_property name="ObjectShortName">src2_add[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_main/inst/dest_add" type="array">
+            <obj_property name="ElementShortName">dest_add[2:0]</obj_property>
+            <obj_property name="ObjectShortName">dest_add[2:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1645" type="group">
+         <obj_property name="label">Reg_file_output</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_main/inst/src1_data" type="array">
+            <obj_property name="ElementShortName">src1_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">src1_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_main/inst/src2_data" type="array">
+            <obj_property name="ElementShortName">src2_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">src2_data[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/Reg/Regis" type="array">
+         <obj_property name="ElementShortName">Regis[7:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">Regis[7:0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1646" type="group">
+      <obj_property name="label">Immediate_unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_main/inst/src2_data1" type="array">
+         <obj_property name="ElementShortName">src2_data1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">src2_data1[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/Ext_out" type="array">
+         <obj_property name="ElementShortName">Ext_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Ext_out[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/Im_sel" type="logic">
+         <obj_property name="ElementShortName">Im_sel</obj_property>
+         <obj_property name="ObjectShortName">Im_sel</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1647" type="group">
+      <obj_property name="label">Control_unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_main/inst/func3" type="array">
+         <obj_property name="ElementShortName">func3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/func7" type="array">
+         <obj_property name="ElementShortName">func7[6:0]</obj_property>
+         <obj_property name="ObjectShortName">func7[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/op_code" type="array">
+         <obj_property name="ElementShortName">op_code[6:0]</obj_property>
+         <obj_property name="ObjectShortName">op_code[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/R_read" type="logic">
+         <obj_property name="ElementShortName">R_read</obj_property>
+         <obj_property name="ObjectShortName">R_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/R_write" type="logic">
+         <obj_property name="ElementShortName">R_write</obj_property>
+         <obj_property name="ObjectShortName">R_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/M_write" type="logic">
+         <obj_property name="ElementShortName">M_write</obj_property>
+         <obj_property name="ObjectShortName">M_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/M_read" type="logic">
+         <obj_property name="ElementShortName">M_read</obj_property>
+         <obj_property name="ObjectShortName">M_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/Operation" type="array">
+         <obj_property name="ElementShortName">Operation[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Operation[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/c_unit/WB_sel" type="array">
+         <obj_property name="ElementShortName">WB_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">WB_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu3_sel" type="logic">
+         <obj_property name="ElementShortName">alu3_sel</obj_property>
+         <obj_property name="ObjectShortName">alu3_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu2_sel" type="logic">
+         <obj_property name="ElementShortName">alu2_sel</obj_property>
+         <obj_property name="ObjectShortName">alu2_sel</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1639">
+      <obj_property name="label">EXE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group4733" type="group">
+      <obj_property name="label">FLOP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_main/inst/Im_sel_ED" type="logic">
+         <obj_property name="ElementShortName">Im_sel_ED</obj_property>
+         <obj_property name="ObjectShortName">Im_sel_ED</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/M_read_ED" type="logic">
+         <obj_property name="ElementShortName">M_read_ED</obj_property>
+         <obj_property name="ObjectShortName">M_read_ED</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/R_write_ED" type="logic">
+         <obj_property name="ElementShortName">R_write_ED</obj_property>
+         <obj_property name="ObjectShortName">R_write_ED</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/src2_data_ED" type="array">
+         <obj_property name="ElementShortName">src2_data_ED[31:0]</obj_property>
+         <obj_property name="ObjectShortName">src2_data_ED[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/WB_sel_ED" type="array">
+         <obj_property name="ElementShortName">WB_sel_ED[1:0]</obj_property>
+         <obj_property name="ObjectShortName">WB_sel_ED[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/Ext_out_ED" type="array">
+         <obj_property name="ElementShortName">Ext_out_ED[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Ext_out_ED[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/M_write_ED" type="logic">
+         <obj_property name="ElementShortName">M_write_ED</obj_property>
+         <obj_property name="ObjectShortName">M_write_ED</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/dest_add_ED" type="array">
+         <obj_property name="ElementShortName">dest_add_ED[2:0]</obj_property>
+         <obj_property name="ObjectShortName">dest_add_ED[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1649" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_main/inst/src1_data_ED" type="array">
+         <obj_property name="ElementShortName">src1_data_ED[31:0]</obj_property>
+         <obj_property name="ObjectShortName">src1_data_ED[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/src2_data1" type="array">
+         <obj_property name="ElementShortName">src2_data1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">src2_data1[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/ALU1_Out" type="array">
+         <obj_property name="ElementShortName">ALU1_Out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU1_Out[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/Operation_ED" type="array">
+         <obj_property name="ElementShortName">Operation_ED[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Operation_ED[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group3730" type="group">
+      <obj_property name="label">ALU2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_main/inst/alu2_valid" type="logic">
+         <obj_property name="ElementShortName">alu2_valid</obj_property>
+         <obj_property name="ObjectShortName">alu2_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu2/data_valid" type="logic">
+         <obj_property name="ElementShortName">data_valid</obj_property>
+         <obj_property name="ObjectShortName">data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu2/out_valid" type="logic">
+         <obj_property name="ElementShortName">out_valid</obj_property>
+         <obj_property name="ObjectShortName">out_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu2/ALU_out" type="array">
+         <obj_property name="ElementShortName">ALU_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu2/Op1" type="array">
+         <obj_property name="ElementShortName">Op1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Op1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu2_sel_ED" type="logic">
+         <obj_property name="ElementShortName">alu2_sel_ED</obj_property>
+         <obj_property name="ObjectShortName">alu2_sel_ED</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group4413" type="group">
+      <obj_property name="label">ALU3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_main/inst/alu3_valid" type="logic">
+         <obj_property name="ElementShortName">alu3_valid</obj_property>
+         <obj_property name="ObjectShortName">alu3_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu3_sel_ED" type="logic">
+         <obj_property name="ElementShortName">alu3_sel_ED</obj_property>
+         <obj_property name="ObjectShortName">alu3_sel_ED</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu3/Op1" type="array">
+         <obj_property name="ElementShortName">Op1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Op1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu3/Op2" type="array">
+         <obj_property name="ElementShortName">Op2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Op2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu3/out_valids" type="array">
+         <obj_property name="ElementShortName">out_valids[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_valids[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/ALU3_Out" type="array">
+         <obj_property name="ElementShortName">ALU3_Out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU3_Out[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1640">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1727" type="group">
+      <obj_property name="label">Mremory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_main/inst/dest_add_ME" type="array">
+         <obj_property name="ElementShortName">dest_add_ME[2:0]</obj_property>
+         <obj_property name="ObjectShortName">dest_add_ME[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/ALU1_Out_ME" type="array">
+         <obj_property name="ElementShortName">ALU1_Out_ME[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU1_Out_ME[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/Mem_out" type="array">
+         <obj_property name="ElementShortName">Mem_out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Mem_out[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/Mem_in" type="array">
+         <obj_property name="ElementShortName">Mem_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Mem_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/Dmem/Mem" type="array">
+         <obj_property name="ElementShortName">Mem[31:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">Mem[31:0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/M_write_sel" type="logic">
+      <obj_property name="ElementShortName">M_write_sel</obj_property>
+      <obj_property name="ObjectShortName">M_write_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/M_read_sel" type="logic">
+      <obj_property name="ElementShortName">M_read_sel</obj_property>
+      <obj_property name="ObjectShortName">M_read_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/R_write_2" type="logic">
+      <obj_property name="ElementShortName">R_write_2</obj_property>
+      <obj_property name="ObjectShortName">R_write_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/WB_sel_2" type="array">
+      <obj_property name="ElementShortName">WB_sel_2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_sel_2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group4732" type="group">
+      <obj_property name="label">FLOP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_main/inst/R_write_ME" type="logic">
+         <obj_property name="ElementShortName">R_write_ME</obj_property>
+         <obj_property name="ObjectShortName">R_write_ME</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu3_valid_ME" type="logic">
+         <obj_property name="ElementShortName">alu3_valid_ME</obj_property>
+         <obj_property name="ObjectShortName">alu3_valid_ME</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/M_read_ME" type="logic">
+         <obj_property name="ElementShortName">M_read_ME</obj_property>
+         <obj_property name="ObjectShortName">M_read_ME</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/ALU2_Out_ME" type="array">
+         <obj_property name="ElementShortName">ALU2_Out_ME[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU2_Out_ME[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/ALU3_Out_ME" type="array">
+         <obj_property name="ElementShortName">ALU3_Out_ME[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU3_Out_ME[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/alu2_valid_ME" type="logic">
+         <obj_property name="ElementShortName">alu2_valid_ME</obj_property>
+         <obj_property name="ObjectShortName">alu2_valid_ME</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/M_write_ME" type="logic">
+         <obj_property name="ElementShortName">M_write_ME</obj_property>
+         <obj_property name="ObjectShortName">M_write_ME</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/WB_sel_ME" type="array">
+         <obj_property name="ElementShortName">WB_sel_ME[1:0]</obj_property>
+         <obj_property name="ObjectShortName">WB_sel_ME[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_main/inst/src2_data_ME" type="array">
+         <obj_property name="ElementShortName">src2_data_ME[31:0]</obj_property>
+         <obj_property name="ObjectShortName">src2_data_ME[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/WB_data" type="array">
+      <obj_property name="ElementShortName">WB_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/WB_data_2" type="array">
+      <obj_property name="ElementShortName">WB_data_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_data_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/dest_add_2" type="array">
+      <obj_property name="ElementShortName">dest_add_2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dest_add_2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/TMM_sel" type="array">
+      <obj_property name="ElementShortName">TMM_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">TMM_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/TMM_out" type="array">
+      <obj_property name="ElementShortName">TMM_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TMM_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1641">
+      <obj_property name="label">WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/dest_add_WM" type="array">
+      <obj_property name="ElementShortName">dest_add_WM[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dest_add_WM[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/R_write_WM" type="logic">
+      <obj_property name="ElementShortName">R_write_WM</obj_property>
+      <obj_property name="ObjectShortName">R_write_WM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/inst/WB_data_WM" type="array">
+      <obj_property name="ElementShortName">WB_data_WM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_data_WM[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider4119">
+      <obj_property name="label">TEMP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+</wave_config>
